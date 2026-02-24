@@ -1,3 +1,5 @@
+import lugares from './lugares.js';
+
 // Gestión de navegación activa
 var enlacesMenu = document.querySelectorAll('.nav-link');
 
