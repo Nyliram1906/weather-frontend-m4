@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Tiempo en Scadrial</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Bootstrap JS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- Mi JS -->
+     <script defer type="module" src="./assets/js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">El Tiempo en Scadrial</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./detalle.html">Detalle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./acerca.html">Acerca de nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container my-4">
+      <!-- Encabezado main -->
+      <header class="my-4">
+        <h1 class="text-center">Reporte del tiempo en el Imperio Final</h1>
+      </header>
+
+      <!-- Sección con grilla de localidades -->
+      <section class="grilla-ciudades">
+        <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 g-4">
+          <!-- Tarjeta 1 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-haze card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Luthadel</h5>
+                <p class="card-text">14°C</p>
+                <p class="card-text">Ceniza constante</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 2 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-fog card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Fadrex City</h5>
+                <p class="card-text">11°C</p>
+                <p class="card-text">Niebla densa</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 3 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-drizzle card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Urteau</h5>
+                <p class="card-text">13°C</p>
+                <p class="card-text">Ceniza ligera</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 4 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-lightning card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Tremredare</h5>
+                <p class="card-text">10°C</p>
+                <p class="card-text">Tormenta de ceniza</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 5 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-haze2 card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Mantiz</h5>
+                <p class="card-text">15°C</p>
+                <p class="card-text">Neblina</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 6 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-fog2 card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Vetitan</h5>
+                <p class="card-text">12°C</p>
+                <p class="card-text">Niebla espesa</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tarjeta 7 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-clouds card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">C. of Seran</h5>
+                <p class="card-text">9°C</p>
+                <p class="card-text">Ceniza pesada</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+          <!-- Tarjeta 8 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-moon card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Pits of Hathsin</h5>
+                <p class="card-text">8°C</p>
+                <p class="card-text">Oscuridad y ceniza</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 9 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-cloud-rain card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Tathingdwen</h5>
+                <p class="card-text">13°C</p>
+                <p class="card-text">Ceniza moderada</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Tarjeta 10 -->
+          <div class="col">
+            <article class="card weather-card text-center">
+              <i class="bi bi-clouds-fill card__icon"></i>
+              <div class="card-body">
+                <h5 class="card-title">Lakeside</h5>
+                <p class="card-text">16°C</p>
+                <p class="card-text">Neblina matutina</p>
+              </div>
+              <div class="card-body">
+                <a class="card-link">Ver detalle</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container py-3 my-4">
+      <nav>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-body-secondary"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./detalle.html" class="nav-link px-2 text-body-secondary"
+              >Detalle</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="text-center text-body-secondary">
+        © 2025 Marilyn Villalobos - Mistborn Edition
+      </p>
+    </footer>
+  </body>
+</html>
